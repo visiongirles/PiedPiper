@@ -68,7 +68,6 @@ p {
   display: block;
   margin: 0 auto;
   padding: 0;
-  /* position: relative; */
 }
 
 .jumbotron {
@@ -108,13 +107,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .hero__text {
   padding: 1.8em;
   font-size: 3rem;
   font-style: italic;
+  text-align: center;
 }
 
 .PiedPiperCoin {
@@ -132,8 +132,6 @@ p {
 .PiedPiperCoin__body__logo {
   float: left;
   padding-right: 1.6rem;
-  /* max-width: 115px; */
-  /* max-height: 115px; */
 }
 
 .PiedPiperCoin__body__text {
