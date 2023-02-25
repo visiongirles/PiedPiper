@@ -34,8 +34,9 @@ p {
 }
 
 .header {
-  /* position: fixed; */
+  position: sticky;
   background-color: var(--brand-green);
+  top: 0;
 }
 
 .header__row {
