@@ -4,6 +4,7 @@ html {
   --light-gray: #eeeeee;
   --dark-gray: #333333;
   --white: #fff;
+  --black: #000000;
   --max-width: 1219px;
 }
 
@@ -27,6 +28,7 @@ h1 {
   color: var(--brand-green);
   text-transform: capitalize;
   font-size: 4rem;
+  text-align: center;
 }
 
 p {
@@ -103,10 +105,6 @@ p {
   padding: 0 1.8em;
 }
 
-.problem__title {
-  text-align: center;
-}
-
 .hero {
   background-image: url(Images/hero.svg);
   background-size: cover;
@@ -135,10 +133,6 @@ p {
   text-align: justify;
 }
 
-.PiedPiperCoin__title {
-  text-align: center;
-}
-
 .PiedPiperCoin__body__logo {
   float: left;
   padding-right: 1.6rem;
@@ -152,4 +146,30 @@ p {
   content: " ";
   clear: both;
   display: table;
+}
+
+.team__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  grid-row-gap: 5rem;
+}
+
+.team__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__card__name {
+  font-size: 1.5rem;
+  color: var(--brand-green);
+  text-align: center;
+}
+
+.team__card__title {
+  font-size: 1.125rem;
+  color: var(--black);
+  text-align: center;
 }
