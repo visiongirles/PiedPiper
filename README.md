@@ -11,3 +11,12 @@ The demo of how I used HTML & CSS skills to create adaptive design of this [Figm
 - Usage of 'position' is allowed only for header
 
 Homework of [this Stepik course](https://stepik.org/course/38218/syllabus)
+
+## Used technologies:
+
+- Flexbox layout
+- Grid layout
+- Float & clearfix
+- Link Anchors
+- EM & REM usage
+- Adaptive for Mobile & Desktop
