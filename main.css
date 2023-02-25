@@ -1,5 +1,14 @@
+html {
+  --brand-green: #007765;
+  --text-color: #212529;
+  --light-gray: #eeeeee;
+  --dark-gray: #333333;
+  --white: #fff;
+}
+
 :root {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -8,12 +17,60 @@
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
-  display: block;
   /* position: fixed; */
+  background-color: var(--brand-green);
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  max-width: 1219px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  column-gap: 1em;
+  font-weight: bold;
+}
+
+.header__menu > li + li {
+  border-left: 2px solid var(--white);
+  padding-left: 1em;
+}
+
+.header__menu > li > a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .content {
   display: block;
+  margin: 0 auto;
+  padding: 0;
   /* position: relative; */
+}
+
+.jumbotron {
+  display: block;
+  background-image: url(Images/jumbotron.svg);
+  background-size: cover;
+  min-height: 400px;
+  background-color: var(--light-gray);
+  color: var(--white);
+}
+
+.jumbotron__text {
+  text-align: center;
+  padding: 1.8em;
+  font-size: 5.14rem;
+  margin: 0;
 }
