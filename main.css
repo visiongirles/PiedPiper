@@ -34,9 +34,12 @@ p {
 }
 
 .header {
-  position: sticky;
   background-color: var(--brand-green);
   top: 0;
+  /* position: fixed;
+  width: 100%;
+  overflow: hidden; */
+  position: sticky;
 }
 
 .header__row {
@@ -85,6 +88,12 @@ p {
 .jumbotron__text {
   padding: 1.8em;
   font-size: 4.5rem;
+}
+
+.element-menu-anchor {
+  display: block;
+  position: relative;
+  top: -100px;
 }
 
 .problem {
