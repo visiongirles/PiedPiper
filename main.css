@@ -4,6 +4,7 @@ html {
   --light-gray: #eeeeee;
   --dark-gray: #333333;
   --white: #fff;
+  --max-width: 1219px;
 }
 
 :root {
@@ -22,6 +23,16 @@ body {
   padding: 0;
 }
 
+h1 {
+  color: var(--brand-green);
+  text-transform: capitalize;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
 .header {
   /* position: fixed; */
   background-color: var(--brand-green);
@@ -31,7 +42,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1em 2em;
-  max-width: 1219px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -60,17 +71,76 @@ body {
 }
 
 .jumbotron {
-  display: block;
   background-image: url(Images/jumbotron.svg);
   background-size: cover;
   min-height: 400px;
-  background-color: var(--light-gray);
+  background-color: var(--brand-green);
   color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .jumbotron__text {
-  text-align: center;
   padding: 1.8em;
-  font-size: 5.14rem;
+  font-size: 4.5rem;
+}
+
+.problem {
+  display: block;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 0 1.8em;
+}
+
+.problem__title {
+  text-align: center;
+}
+
+.hero {
+  background-image: url(Images/hero.svg);
+  background-size: cover;
+  min-height: 400px;
+  background-color: var(--brand-green);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
+}
+
+.hero__text {
+  padding: 1.8em;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.PiedPiperCoin {
+  display: block;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 0 1.8em;
+  text-align: justify;
+}
+
+.PiedPiperCoin__title {
+  text-align: center;
+}
+
+.PiedPiperCoin__body__logo {
+  float: left;
+  padding-right: 1.6rem;
+  /* max-width: 115px; */
+  /* max-height: 115px; */
+}
+
+.PiedPiperCoin__body__text {
+  margin-top: 0;
+}
+
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: table;
 }
