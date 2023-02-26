@@ -22,3 +22,7 @@ Homework of [this Stepik course](https://stepik.org/course/38218/syllabus)
 - EM & REM usage
 - Block, Element, Modifier Methodology
 - Adaptive for Mobile & Desktop
+
+## Preview
+
+<img src="Images/demo.png" alt="demo" width="500px">
