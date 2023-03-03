@@ -23,6 +23,9 @@ Homework of [this Stepik course](https://stepik.org/course/38218/syllabus)
 - Block, Element, Modifier Methodology
 - Adaptive for Mobile & Desktop
 
-## Preview
+## Check it out
 
+<a href="https://piedpiperbyduckate.netlify.app/
+">https://piedpiperbyduckate.netlify.app/
+</a>
 <img src="Images/demo.png" alt="demo" width="500px">
