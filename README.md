@@ -25,4 +25,4 @@ Homework of [this Stepik course](https://stepik.org/course/38218/syllabus)
 
 ## Check it out
 
-https://piedpiper-by-duckate.netlify.app/
+<a target="_blank" href="https://piedpiper-by-duckate.netlify.app/">https://piedpiper-by-duckate.netlify.app/</a>
